@@ -107,15 +107,15 @@ section:nth-child(even) {
 .svg-text-wrapper svg {
     position: absolute;
     left: 0;
-    width: 150px; /* Adjust the width as needed */
+    width: 150px;
     height: auto;
     fill: #DCFE50;
 }
 
 .text-content {
     position: relative;
-    margin-left: 200px; /* Adjust this margin to give space for the SVG */
-    z-index: 1; /* Ensure the text is above the SVG */
+    margin-left: 200px;
+    z-index: 1;
 }
 
 .text-content h1 {
