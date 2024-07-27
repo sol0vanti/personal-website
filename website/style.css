@@ -4,8 +4,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
     font-family: "Source Code Pro";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section {
+    padding: 2rem 0 4rem;
+    height: 75vh;
+}
+
+.icons {
+    position: fixed;
+    top: 0;
+    left: 0; /* 20 pixels from the left edge of the screen */
+    padding: 20px 100px; /* Optional: additional padding for the link */
+}
+
+.icons a {
+    color: #DCFE50;
+    font-size: 32px;
 }
 
 .header {
@@ -55,13 +75,66 @@ nav a:hover::before {
 section {
     min-height: 75vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-content: center;
     align-items: center;
     background: #1A1A1A;
     color: #FBFEEB;
-    font-weight: 700;
 }
 
-section:nth-child(odd) {
-    background: #2c2c2c;
+section div {
+    margin: 75px;
 }
+
+section:nth-child(even) {
+    background: #1f1f1f;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.svg-text-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.svg-text-wrapper svg {
+    position: absolute;
+    left: 0;
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+    fill: #DCFE50;
+}
+
+.text-content {
+    position: relative;
+    margin-left: 200px; /* Adjust this margin to give space for the SVG */
+    z-index: 1; /* Ensure the text is above the SVG */
+}
+
+.text-content h1 {
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 600;
+    color: #FBFEEB;
+}
+
+.text-content h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #C7CBB1;
+}
+
+.text-content p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #C7CBB1;
+}
+
