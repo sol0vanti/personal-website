@@ -63,6 +63,77 @@ body {
     padding-right: 15vh;
 }
 
+.projects-section {
+    z-index: 1;
+    text-align: center;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    margin: 15vh 0 2rem; /* Margin below the navbar and some spacing above */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100vw - 30vh);
+}
+
+.projects-header {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    text-align: left; /* Align text to the left */
+    display: flex; /* Use flexbox for positioning */
+    align-items: flex-start; /* Align items to the top of the div */
+    justify-content: flex-start; /* Align text to the left */
+    flex: 1;
+}
+
+.projects-header h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.projects-header h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(43, 43, 43);
+    margin-bottom: 5px;
+}
+
+.projects-header p {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(150, 150, 150);
+    margin-bottom: 15px;
+}
+
+.projects-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.project-button {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 2rem;
+    border-width: 0;
+    color: #FBFAF8;
+}
+
+.github-button {
+    background-color: #333;
+    color: #fafafa;
+}
+
+.next-button {
+    color: #4078c0;
+}
+
 .title {
     color: #333;
     margin: 15vh 0 2rem; /* Margin below the navbar and some spacing above */
@@ -183,5 +254,10 @@ body {
 
 .image {
     height: 304px;
+    width: auto;
+}
+
+.project-image {
+    height: 528px;
     width: auto;
 }
