@@ -107,6 +107,12 @@ body {
     margin-bottom: 15px;
 }
 
+.projects-header span {
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+}
+
 .projects-buttons {
     display: flex;
     align-items: center;
@@ -123,6 +129,7 @@ body {
     border-radius: 2rem;
     border-width: 0;
     color: #FBFAF8;
+    margin-bottom: 15px;
 }
 
 .github-button {
