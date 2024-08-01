@@ -273,3 +273,33 @@ body {
     height: 528px;
     width: auto;
 }
+
+@media (max-width: 600px) {
+    .banners {
+        display: flex;
+        flex-direction: column; /* Arrange items vertically */
+        align-items: center;
+    }
+
+    .projects-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects-header {
+        text-align: center; /* Align text to the left */
+        display: flex; /* Use flexbox for positioning */
+        align-items: center; /* Align items to the top of the div */
+        justify-content: top; /* Align text to the left */
+        flex: 1;
+    }
+
+    .project-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 475px;
+        width: auto;
+    }
+}
