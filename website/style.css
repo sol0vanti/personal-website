@@ -141,6 +141,11 @@ body {
     color: #4078c0;
 }
 
+.back-button {
+    background-color: #f0f0f0;
+    color: #929292;
+}
+
 .title {
     color: #333;
     margin: 15vh 0 2rem; /* Margin below the navbar and some spacing above */
