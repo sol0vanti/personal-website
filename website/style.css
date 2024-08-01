@@ -276,9 +276,11 @@ body {
 
 @media (max-width: 600px) {
     .banners {
-        display: flex;
-        flex-direction: column; /* Arrange items vertically */
-        align-items: center;
+        display: none;
+    }
+
+    .header .content {
+        padding-bottom: 25px;
     }
 
     .projects-section {
